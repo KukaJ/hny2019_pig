@@ -3,13 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>ÇÑ±¹·»Å» ¼³³¯ 2019_1</title>
+<title>í•œêµ­ë Œíƒˆ ì„¤ë‚  2019_1</title>
 
 </head>
 
 <body>
 
-<img src="D:\Koogle\KRC ¸¶ÄÉÆÃÆÀ\2019 ¼³³¯ ¿¬ÇÏÀå\krc_hny_2019_85501100.jpg" width=100% >
+<img src="krc_hny2019_1/krc_hny_2019_85501100.jpg" width=100% >
 
 </body>
 

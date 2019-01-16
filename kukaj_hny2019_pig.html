@@ -1,0 +1,321 @@
+﻿<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<style type="text/css">
+/* RED GHOST BUTTON */
+  .btnRed:hover,
+  * [lang~="x-btnRed"]:hover {
+  background-color:#ca333b!important;
+  -webkit-border-radius:4px !important; border-radius:4px !important;
+  transition: all 0.2s ease-in;
+  }
+
+  .btnRed a:hover,
+   * [lang~="x-btnRed"] a:hover{
+   background-color:#ca333b!important;
+   color:#FFFFFF!important;
+   transition: all 0.2s ease-in;
+  }
+  
+  /* YELLOW GHOST BUTTON */
+  .btnYellow :hover,
+   * [lang~="x-btnYellow"]:hover {
+         background-color:#FFFFFF!important;
+     color:#ffa300!important;
+     -webkit-border-radius:4px !important; border-radius:4px !important;
+     transition: all 0.2s ease-in;
+  }
+
+  .btnYellow a:hover,
+  * [lang~="x-btnYellow"] a:hover{
+    color:#ffa300!important;
+    background-color:#FFFFFF!important;
+        transition: all 0.2s ease-in;
+  }
+
+  /* WHITE GHOST BUTTON */
+  .btnWhite :hover,
+   * [lang~="x-btnWhite"]:hover {
+         background-color:#FFFFFF!important;
+     color:#ca333b!important;
+     -webkit-border-radius:4px !important; border-radius:4px !important;
+     transition: all 0.2s ease-in;
+  }
+
+  .btnWhite a:hover,
+  * [lang~="x-btnWhite"] a:hover{
+    color:#ca333b!important;
+    background-color:#FFFFFF!important;
+        transition: all 0.2s ease-in;
+  }
+
+  /* BLUE GHOST BUTTON */
+  .btnBlue :hover,
+  * [lang~="x-btnBlue"]:hover {
+    background-color:#00a3e0 !important;
+    color:#FFFFFF!important;
+    -webkit-border-radius:4px !important; border-radius:4px !important;
+        transition: all 0.2s ease-in;
+  }
+  
+  .btnBlue a:hover,
+  * [lang~="x-btnBlue"] a:hover{
+    color:#FFFFFF!important;
+    background-color:#00a3e0!important;
+        transition: all 0.2s ease-in;
+  }
+  /* GREY HOVER BUTTON */
+  .btnGrey :hover,
+  * [lang~="x-btnGrey"]:hover {
+    background-color: #4c4d4b!important;
+    color:#FFFFFF !important;
+    border: 0px solid #4c4d4b!important;
+    -webkit-border-radius:4px!important; border-radius:4px!important;
+        transition: all 0.2s ease-in;
+  }
+  .btnGrey a:hover,
+  * [lang~="x-btnGrey"] a:hover {
+    border: 3px solid#4c4d4b!important;
+    background-color:#4c4d4b!important;
+    color:#FFFFFF!important;
+transition: all 0.2s ease-in;
+  }
+
+/* OPACITY HOVER */
+  .opacity :hover,
+  * [lang~="x-opacity"] img:hover {
+    opacity: 0.85;
+    transition: all 0.2s ease-in;}
+
+</style>
+
+<style type="text/css">
+/* GENERAL EMAIL CLIENT FIXES */
+  #outlook a{padding:0;}
+  .ReadMsgBody{width:100%;} 
+  .ExternalClass{width:100%;}                
+  .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+   body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+   table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+   table{border-collapse:collapse !important; table-layout:fixed; !important; margin: 0 auto; !important;}
+   table table {table-layout: auto;}
+   img{-ms-interpolation-mode:bicubic;}
+   body{margin:0; padding:0;}
+   img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+   body{height:100% !important; margin:0; padding:0; width:100% !important; background-color:#d4d5d6;}
+   *img[tabindex="0"] + div {display:none!important;}
+
+
+/* REMOVES BLUE LINKS ON APPLE DEVICES */
+    a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;}
+    
+/* MEDIA QUERY SCREEN 414px */
+  @-ms-viewport{width:device-width}
+    @media screen and (max-width: 414px){
+    *[class="container"]{width:100% !important;}
+    *[class="text-center"]{text-align: center !important; width:100% !important; padding-left: 0px !important;}
+    *[class="hide"]{display: none !important;}
+    *[class="button-width"]{width:100% !important;}
+    *[class="crop"]{height:auto !important; max-width:400px !important; width:100% !important;}
+    *[class="mobile-padding"]{padding-right: 20px !important; padding-left: 20px !important;}
+    }
+        
+/* HYBRID CODING TABLE MEDIA QUERY */
+        @media screen and (min-width: 601px) {
+        *[class="containerDesktop"]{width: 600px!important;}
+        }
+
+/* Hide spacer image in applications that support media queries */
+        @media only screen and (max-width: 600px) {
+        *[class="gmail-fix"] {display: none !important;}
+        }
+
+/* FLOATING */
+.floating{
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 1.5s; 
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0%);  
+  }
+  60% {
+    transform: translateY(6%);  
+  } 
+  100% {
+    transform: translateY(0%);
+  }     
+}
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(0%);  
+  }
+  60% {
+    transform: translateY(6%);  
+  } 
+  100% {
+    -webkit-transform: translateY(0%);
+  }     
+}
+
+  /* ARROWED */
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 20px solid #f4f5f5;}
+
+  .arrow-down-white {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 20px solid #ffffff}
+
+/* Image Center Crop Pattern CSS */
+    @media only screen and (max-width: 559px) {
+    td[class="cropIMG"] {
+    position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 290px;
+        }
+        
+        td[class="cropIMG"] img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -300px;
+        }       
+}
+        
+</style>
+
+<style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<title></title>
+</head>
+<body bgcolor="#D4D5D6"><!-- HACK TO FORCE GMAIL APP TO DISPLAY DESKTOP VIEW // HIDDEN ON MOBILE // DO NOT DELETE -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center"><tbody><tr><td align="center" valign="top"><div class="mktEditable" id="Preheader"><!-- HIDDEN PREHEADER  -->
+<div class="preheader" style="font-size: 1px; display: none !important;">Not as good as peanut butter + jelly, but close</div></div>
+</td>
+</tr>
+</tbody></table>
+<!-- HEADER CONTENT STARTS HERE -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center"><tbody><tr><td align="center" valign="top"><div class="mktEditable" id="Header"><div></div></div>
+</td>
+</tr>
+</tbody></table>
+<!-- FEATURE CONTENT STARTS HERE -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#FFFFFF"><tbody><tr><td align="center" valign="top"><div class="mktEditable" id="Feature"><!-- THIS IS A TABLE -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#efa82a">
+<tbody>
+<tr>
+<td align="center" valign="top" style="text-align: center; vertical-align: top; font-size: 0; background-color: #efa82a) top center no-repeat; background-size: 100% auto; padding: 120px 50px 290px 50px;"><!--[if (gte mso 9)|(IE)]>	
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td align="center" valign="top" width="600">
+			<![endif]-->
+      
+<!-- HEAD -->
+<table bgcolor="#efa82a" width="100%" cellpadding="0" cellspacing="0" border="0"
+              role="presentation" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important;">
+                <tbody style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                  <tr style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                    <td align="center" valign="top" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important;">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                      style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important;">
+                        <tbody style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                          <tr style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                            <td align="center" valign="top" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; color: #00185c; padding: 0 0 0 0; border-collapse: collapse !important;">
+                              <img alt="" width="800" border="0" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;"
+                              class="photo" src="D:\Koogle\KRC 마케팅팀\images\거위\head.jpg?raw=true">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>      
+<!-- MID -->
+<table class="containerDesktop" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+<tbody>
+<tr>
+<td align="center" valign="middle" bgcolor="#ffffff">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                <tbody>
+                  <tr>
+                    <td align="center" valign="top" style="padding:0 0 0 0;">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                        <tbody>
+                          <tr>
+                            <td class="hidden" align="left" valign="top" style="font-family:'Source Sans Pro', Helvetica, Arial, sans-serif; font-size:14px; color:#00185c; padding:0 0 0 0;">
+                              <img alt="" width="180" border="0" style="display:block;" src="D:\Koogle\KRC 마케팅팀\images\거위\leftside.jpg?raw=true"
+                              />
+                            </td>
+                            <td align="center" valign="middle">
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                <tbody>
+<tr>
+<td align="center" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 30px; color: #4c4d4b; padding: 15px 4px 40px 4px;">지난 한 해 동안 보내주신 관심과 성원에<br/>깊이 감사드립니다.<br/>2019년 황금 돼지해 기운을 받아<br/>소망하는 모든 일이 좋은 결실 맺기를 기원합니다.</td>
+</tr>
+<tr>
+<td align="center" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; line-height: 20px; color: #383838; padding: 0px 20px 16px 20px;"><strong>한국렌탈 장국화 드림</strong></td>
+</tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="hidden" align="right" valign="top" style="font-family:'Source Sans Pro', Helvetica, Arial, sans-serif; font-size:14px; color:#00185c; padding:0 0 0 0;">
+                              <img alt="" width="182" border="0" style="display:block;" src="D:\Koogle\KRC 마케팅팀\images\거위\rightside.jpg?raw=true"
+                              />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+<!-- FOOTER -->
+<table bgcolor="#efa82a" width="100%" cellpadding="0" cellspacing="0" border="0"
+              role="presentation" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important;">
+                <tbody style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                  <tr style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                    <td align="center" valign="top" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important;">
+                      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"
+                      style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important;">
+                        <tbody style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                          <tr style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased;">
+                            <td align="center" valign="top" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; color: #00185c; padding: 0 0 0 0; border-collapse: collapse !important;">
+                              <img alt="" width="800" border="0" style="text-size-adjust: none; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; -webkit-font-smoothing: antialiased; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;"
+                              class="photo" src="https://github.com/KukaJ/krc_hny2019_1/blob/master/footer.jpg?raw=true">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+
+<!-- COMMENT -->
+
+</body>
